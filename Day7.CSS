@@ -1,0 +1,146 @@
+
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+     body{
+        margin: 0%;
+        overflow-x: hidden;
+     }
+       
+    .top{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background-color: white;
+        word-spacing: 10px;
+        letter-spacing: 5px;
+        position: fixed;
+        z-index: 1;
+
+    }
+    #nav1{
+        width: 60%;
+        justify-content: flex-start;
+        font-size: 20px;
+    }
+    #nav2{
+        display: flex;
+        width: 40%;
+        justify-content: space-around;
+        padding: 20px;
+        font-size: 20px;
+    
+    }
+    #a1{
+        color: black;
+        text-decoration: none;
+    }
+    #img{
+        margin-top: 50px;
+    }
+    .left{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #p1{
+        position: absolute;
+        margin-top: -27%;
+        margin-left: 40%;
+        font-size:2.2rem;
+        letter-spacing: 5px;
+        color: white;
+    }
+    #spa{
+        border: 0px hidden black;
+        border-width: 15px;
+        background-color: rgba(0, 0, 0, 0.819);
+        font-size: 2.5rem;
+        padding: 10px;
+    }
+    .div1{
+        position: relative;
+    }
+    #p2{
+    font-size: 1.8rem;
+    margin-top: 50px;
+    margin-left: 40px;
+    }
+    section{
+        display:grid;
+        grid-template-columns:repeat(4,auto);
+        margin-top: 50px;
+        row-gap: 20px;
+    }
+    #img1{
+        width: 350px;
+        height: 250px;
+
+    }
+    #p3{
+        position: absolute;
+        margin-left: -23%;
+        color: aliceblue;
+        padding: 5px;
+        background-color: black;   
+    }
+    #content{
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    article{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    h3{
+        margin-top: 10px;
+    }
+    h4{
+        margin-top: 15px;
+    }
+    #last{
+        margin-top:25px ;
+        /* font-weight:lighter; */
+    }
+    button{
+        margin-top: 15px;
+        width: 90%;
+        height: 10%;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    input{
+        width: 95vw;
+        height: 6vh;
+        margin-top: 15px;
+        margin-left: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    #msg{
+        border: 0px hidden black;
+        background-color: black;
+        color: white;
+        width: 12%;
+        height: 5vh;
+        padding: 10px;
+        margin: 30px;
+    }
+    #css{
+        border: 0px hidden black;
+        background-color: black;
+        color: white;
+        height: 12vh;
+        font-size: 20px;
+        padding: 25px;
+        text-align: center;
+    }
+    #imglast{
+        width:95vw;
+    }
